@@ -1,1 +1,2 @@
 # sprYt
+sprYt - "Gesellschaftsspiel"
