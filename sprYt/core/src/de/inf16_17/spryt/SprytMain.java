@@ -13,9 +13,7 @@ public class SprytMain extends Game {
 	
 	SpriteBatch batch;
 	Sprite img;
-	
 	float rot;
-	
 	Color color;
 	
 	@Override
