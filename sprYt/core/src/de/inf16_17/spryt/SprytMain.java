@@ -55,6 +55,8 @@ public class SprytMain extends Game {
 			float shake = MathUtils.sin(rot) * shakeAmplitudeInDegrees;
 			img.setRotation(shake);
 			Gdx.input.vibrate(10);
+		}else if (!Gdx.input.isTouched(0)) {
+			img.setRotation(0);
 		}
 	}
 	
