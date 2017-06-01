@@ -1,5 +1,7 @@
 package de.inf16_17.spryt;
 public class Task {
+
+	public static final int GAME_PARAMETER_MAX = 3;
 	
 	private String task, msg; // Task = Aufgabe , msg = Nachricht bei Ende
 	private int consumption, physicalContact, activity, game, validity; // consuption, physicalContact, activity, game = Parameter fuer Frage , valadity = Gueltigkeit der Frage
