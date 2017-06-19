@@ -1,5 +1,8 @@
 package de.inf16_17.spryt.screens;
 
+import java.util.ArrayList;
+import java.util.Random;
+
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
@@ -19,6 +22,7 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 
 import de.inf16_17.spryt.SprytMain;
+import de.inf16_17.spryt.Task;
 
 public class GameScreen implements Screen {
 	
@@ -33,6 +37,8 @@ public class GameScreen implements Screen {
 	
 	private Texture background;
 	
+	private Random random;
+	
 	
 	public GameScreen(final Game game){
 		this.game = game;
@@ -44,7 +50,7 @@ public class GameScreen implements Screen {
 		table.setFillParent(true);
 		stage.addActor(table);
 		
-		task = new Label("Ich bin eine sehr sehr sehr sehr sehr sehr sehr sehr sehr sehr sehr sehr lange Frage =D", SprytMain.skin);
+		task = new Label("Ich bin eine Frage =D", SprytMain.skin);
 		task.setWrap(true);
 		task.setAlignment(0);
 		task.setFontScale(4);
@@ -56,12 +62,37 @@ public class GameScreen implements Screen {
 		
 		background = new Texture("bin//badlogic.jpg");
 		
+		random = new Random();
+		
+		
+		setTask();
+		
+		
 		table.debug();
 		
 		table.center();
 		table.add(task).width(SprytMain.width * 0.9f);
 	}
 	
+	
+	private void update(float delta){
+		if(Gdx.input.justTouched()){
+			setTask();
+		}
+	}
+	
+	private void setTask(){
+		ArrayList<Task> tasks = ((SprytMain) game).getTasks();
+		if(tasks.size() == 0){
+			
+			//TODO Spiel beenden !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		}
+		
+		int index = random.nextInt(tasks.size());
+		Task t = tasks.get(index);
+		task.setText(t.getTask());
+		tasks.remove(index);
+	}
 	
 	@Override
 	public void dispose() {
@@ -80,15 +111,16 @@ public class GameScreen implements Screen {
 	}
 
 	@Override
-	public void render(float arg0) {
+	public void render(float delta) {
 		Gdx.gl.glClearColor(0, 0, 0, 1f);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+		
+		update(delta);
+		stage.act();
 		
 		SprytMain.batch.begin();
 		draw(SprytMain.batch);
 		SprytMain.batch.end();
-		
-		stage.act();
 		stage.draw();
 	}
 	

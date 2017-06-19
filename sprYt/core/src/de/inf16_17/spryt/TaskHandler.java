@@ -22,6 +22,7 @@ public class TaskHandler {
 			Scanner fileScanner = new Scanner(new File(path)); // Liest die Datei Zeile fuer Zeile ein
 			while(fileScanner.hasNext()){
 				String line = fileScanner.nextLine();
+				System.out.println(line);
 				
 				StringReader stringReader = new StringReader(line); // Liest Aufgabe und Message ein
 				Scanner parameterScanner = new Scanner(line); // Liest Parameter ein

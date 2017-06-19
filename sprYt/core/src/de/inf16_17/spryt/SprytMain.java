@@ -45,7 +45,7 @@ public class SprytMain extends Game {
 //		// Spieler hinzufuegen
 //		players.add(0, new Player("Nico Kestel", Gender.MALE, Sex.HETERO, true));
 //		players.add(1, new Player("Malik Geiger", Gender.MALE, Sex.HETERO, true));
-//		players.add(2, new Player("Matthias Müller", Gender.MALE, Sex.HETERO, false));
+//		players.add(2, new Player("Matthias Mï¿½ller", Gender.MALE, Sex.HETERO, false));
 //		
 //		// Alle Spieler der Reihe nach ausgeben
 //		for (int i = 0; i < players.size(); i++) {
@@ -56,7 +56,7 @@ public class SprytMain extends Game {
 
 		tasks = TaskHandler.readTasks("src/testTasks.txt");
 		System.out.println(tasks.size());
-		TaskHandler.filterTasks(tasks, 1, 1, 1, 1);
+		TaskHandler.filterTasks(tasks, 3, 3, 3, 3);
 		System.out.println(tasks.size());
 	}
 	
@@ -69,5 +69,9 @@ public class SprytMain extends Game {
 	@Override
 	public void dispose () {
 
+	}
+	
+	public ArrayList<Task> getTasks(){
+		return tasks;
 	}
 }
