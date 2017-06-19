@@ -1,0 +1,3 @@
+"Ich bin so eine krasse Aufgabe" "hi I bims das Ente" 2 3 2 1 5 0
+"Ich bin so eine krasse Aufgabe2" "hi I bims auch das Ente" 2 3 5 1 5 0
+"Ich bim so 1 grase Aufgabe" "hi I bims das Ente" 2 3 2 1 5 1
