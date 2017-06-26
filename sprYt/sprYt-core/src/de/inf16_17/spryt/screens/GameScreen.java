@@ -11,15 +11,10 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
-import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
-import com.badlogic.gdx.scenes.scene2d.ui.TextArea;
-import com.badlogic.gdx.utils.viewport.FitViewport;
-import com.badlogic.gdx.utils.viewport.ScreenViewport;
 
 import de.inf16_17.spryt.SprytMain;
 import de.inf16_17.spryt.Task;
@@ -39,9 +34,13 @@ public class GameScreen implements Screen {
 	
 	private Random random;
 	
+	private Skin buttonSkin;
+	
 	
 	public GameScreen(final Game game){
 		this.game = game;
+		
+//		buttonSkin = new Skin(Gdx.files.internal("buttons/buttons-data.txt"), new TextureAtlas(Gdx.files.internal("buttons/buttons-atlas.png")));
 		
 		stage = new Stage(SprytMain.view);
 		Gdx.input.setInputProcessor(stage);
@@ -53,14 +52,14 @@ public class GameScreen implements Screen {
 		task = new Label("Ich bin eine Frage =D", SprytMain.skin);
 		task.setWrap(true);
 		task.setAlignment(0);
-		task.setFontScale(4);
+		task.setFontScale(3);
 		task.setWidth(100);
 		stage.addActor(task);
 		
-//		next = new ImageButton(SprytMain.skin);
+//		next = new ImageButton(buttonSkin);
 //		back = new ImageButton(SprytMain.skin);
 		
-		background = new Texture("bin//badlogic.jpg");
+		background = new Texture("badlogic.jpg");
 		
 		random = new Random();
 		
@@ -76,7 +75,7 @@ public class GameScreen implements Screen {
 	
 	
 	private void update(float delta){
-		if(Gdx.input.justTouched()){
+		if(Gdx.input.isTouched()){
 			setTask();
 		}
 	}

@@ -1,0 +1,74 @@
+"Tanzbär: # tanzt mit randvollem Glas vor." "" 2 0 3 0 0 0
+"An Gud’n: Iss, was die Person links neben dir für dich aussucht." "" 0 0 3 1 0 0
+"# redet 5 Runden Englisch, bei Verstoß 1 Shot trinken." "# spricht kein Englisch mehr" 1 0 2 0 5 0
+"Ex-Freund: # sucht dir ein Getränk aus, welches du auf Ex trinkst." "" 3 0 0 0 0 0
+"# zieht ein Kleidungsstück aus oder trinkt ein starkes Mischgetränk, was der Nachbar mixt." "" 3 0 2 0 0 0
+"Spülung: Trinke vor jedem Toilettengang 1 Schluck." "" 2 0 0 0 0 0
+"Lecke den Boden ab oder trinke 4 Schlucke." "" 3 0 3 0 0 0
+"Halte 30 Sekunden die Luft an, bei Versagen trinke 1 Bier." "" 1 0 1 0 0 0
+"Verpasse einem Spieler des anderen Geschlechts neben dir einen Knutschfleck." "" 0 3 1 0 0 1
+"Massage: # such dir eine Person, die dich massiert, bis das Getränk von # leer ist." "" 0 2 1 0 0 1
+"Trinke ein halbes Bier." "" 1 0 0 0 0 0
+"Trinke 1 Schluck Hochprozentiges." "" 1 0 0 0 0 0
+"Trinke 2 Schlucke Hochprozentiges." "" 2 0 0 0 0 0
+"Trinke 3 Schlucke Hochprozentiges." "" 3 0 0 0 0 0
+"Trinke ein starkes Mischgetränk." "" 2 0 0 0 0 0
+"Trinke ein Glas eines starken Mischgetränks." "" 3 0 0 0 0 0
+"Zungenbrecher: Die Person neben dir sagt dir einen Zungenbrecher auf, spreche ihn nach! – Bei Versagen trinke 2 Schlucke." "" 2 0 1 1 0 0
+"Spiel: Überbiete einen Highscore von 5 in Shotbird, um nichts zu trinken, sonst trinke 1 Schluck." "" 1 0 0 2 0 0
+"Amor: # entscheidet, wen du küssen musst." "" 0 2 1 0 0 1
+"Notenvergleich: Jeder mit mindestens 3 6ern in der Schule trinkt einen Schluck!" "" 1 0 0 0 0 0
+"Der Jüngste sucht sich jemanden aus, der einen Schluck trinken muss." "" 1 0 0 0 0 0
+"# darf ab jetzt nur noch lispeln, bei Verstoß muss # und % 2 Schlucke trinken." "" 2 0 0 0 0 0
+"Alle Frauen trinken 2 Schlucke." "" 2 0 0 0 0 0
+"Sauf-Buddies: Wenn # etwas trinken muss, muss % auch etwas trinken." "" 3 0 0 0 6 0
+"# stellt jedem eine Frage. Jeder, der nicht in 1 Minute antwortet muss 3 Schlucke trinken." "" 2 0 0 0 0 0
+"# schätzt die Größe von %. Wenn falsch geraten wird, müssen alle 2 Schluck trinken." "" 2 0 0 0 0 0
+"Der Kleinste muss 1 Schluck trinken." "" 1 0 0 0 0 0
+"Der Kleinste muss 2 Schlucke trinken." "" 2 0 0 0 0 0
+"Der Kleinste muss 3 Schlucke trinken." "" 3 0 0 0 0 0
+"Der Fetteste muss 1 Schluck trinken." "" 1 0 0 0 0 0
+"Der Fetteste muss 2 Schlucke trinken." "" 2 0 0 0 0 0
+"Der Fetteste muss 3 Schlucke trinken." "" 3 0 0 0 0 0
+"Der Größte muss 1 Schluck trinken." "" 1 0 0 0 0 0
+"Der Größte muss 2 Schlucke trinken." "" 2 0 0 0 0 0
+"Der Größte muss 3 Schlucke trinken." "" 3 0 0 0 0 0
+"Alle trinken 1 Schluck." "" 1 0 0 0 4 0
+"Alle trinken 3 Schlucke." "" 3 0 0 0 2 0
+"Schere, Stein, paar Bier: Suche dir einen Mitspieler für Schere, Stein, Papier! Der Verlierer trinkt bis zu seiner nächsten Aufgabe immer einen mit." "" 2 0 0 2 0 0
+"Schnaps sie dir: Trinke doppelt so viele Schlucke, wie eine von dir ausgewählte Person, dann muss sie dich küssen." "" 3 3 0 2 0 1
+"Du Flasche!: Schaffe 3 von 10 Bottleflips. Wenn du scheiterst, trinke 2 Schlucke." "" 2 0 2 1 0 0
+"Tiergeräusche: Jeder macht 15 Sekunden lang Tiergeräusche. Der Lauteste verteilt 4 Schlucke." "" 2 3 0 2 0 0
+"AFK: Jeder, der in der letzten Runde nichts getrunken hat, trinkt 3 Schlucke." "" 3 0 0 1 0 0
+"Der Hübscheste muss 3 Schlucke trinken." "" 3 0 0 0 0 0 
+"Alle Bartträger trinken 2 Schlucke." "" 2 0 0 1 0 0
+"Shot-Caller: # denkt eine Zahl zwischen 1 und 10. Die Person, die am weitesten von der Zahl entfernt ist, trinkt die Differenz in Schlucken." "" 1 1 0 3 0 0
+"Plagen: Alle Spieler mit Geschwistern trinken 2 Schlucke." "" 2 0 0 1 0 0
+"Model: Alle, die Markenklamotten tragen, trinken 3 Schlucke." "" 3 0 0 1 0 0
+"Sodomie: Jeder, der Haustiere hat, trinkt 2 Schlucke." "" 2 0 0 1 0 0
+"Serien-Junkie: Jeder, der eine Serie verfolgt, trinkt die Anzahl der Staffeln in Schlucken." "" 3 0 0 2 0 0
+"Verantwortungsbewusst: Der Älteste trinkt 2 Schlucke, der Jüngste doppelt so viel." "" 3 0 0 1 0 0
+"Jungfrau: Alle Jungfrauen trinken 2 Schlucke." "" 2 0 0 0 0 0 
+"Alle ohne Bart trinken 3 Schlucke." "" 3 0 0 1 0 0
+"Captain Bizeps: Der mit dem größten Bizeps trinkt 2 Schlucke." "" 2 0 0 1 0 0
+"# klatscht % einmal gegen die Stirn und % trinkt 2 Schlucke." "" 2 0 0 1 0 0
+"# verteilt 3 Schlucke." "" 3 0 0 0 0 0
+"# trinkt für jeden Spieler einen Schluck. Für jeden Spieler, bei dem du dich weigerst, musst du 1 Euro geben." "" 3 0 2 0 0 0
+"Verteiler: # verteilt insgesamt 8 Schlucke auf einen oder mehrere Mitspieler." "" 3 0 1 1 0 0
+"Lackaffe: Jedes mal, wenn der Name von # genannt wird darf # 3 Schlucke verteilen." "Lackaffe ist vorbei!" 3 0 1 1 3 0
+"Kuschelraupe: # umarmt eine Person, die # bestimmt und trinkt mit dieser 3 Schlucke." "" 3 1 1 1 0 1
+"Sportübung: # verteilt 9 Schlucke oder lässt jemanden 9 Liegestützen machen. Macht dieser keine Liegestützen, muss er sein Getränk exen." "" 3 0 0 1 0 0
+"Steh-Auf-Männchen: # steht auf und setzt sich erst wieder hin, wenn sein Getränk leer ist." "" 2 0 0 1 0 0
+"# zieht ein Kleidungsstück aus oder trinkt 8 Schlucke." "" 3 0 0 0 0 0
+"# berührt 3 mal mit seiner Stirn sein Knie und trinkt 3 Schlucke." "" 3 0 1 1 0 0
+"# schreit eine Zahl zwischen 1 und 10. Der Letzte der dieselbe Zahl schreit, trinkt die Zahl in Schlucken." "" 3 0 1 0 0 0
+"# trinkt 6 Schlucke oder gibt sich selbst 6 Backpfeifen." "" 3 0 2 0 0 0
+"Regelmacher: # denkt sich eine Regel und eine Strafe für den Regelbruch aus." "Die Regel ist vorbei." 2 2 2 2 5 1
+"Alle klatschen 3 mal in die Hände und trinken danach 3 Schlucke." "" 2 0 1 0 0 0
+"JA-Sager: Das Wort JA ist verboten. Wer es sagt trinkt 1 Schluck." "JA-Sager ist vorbei." 1 0 1 1 4 0
+"Alle Cro Fans trinken 1 Schluck." "" 1 0 1 0 0 0
+"# schreit ein Wort deiner Wahl, der Letzte der es auch schreit,  trinkt 3 Schlucke" "" 2 0 2 1 0 0
+"# wirft eine Münze. Bei Kopf trinken alle 5 Schlucke, bei Zahl 1 Schluck." "" 3 0 2 0 0 0
+"Schweig: Alle schweigen 1 Runde lang, für jedes Wort gibt es einen Schluck." "Rede!" 2 0 1 1 1 0
+"Diktator: # heißt ab jetzt Kim Jong-un. Jeder, der ihn mit dem richtigen Namen anspricht, muss 1 Schluck trinken." "# trägt wieder seinen richtigen Namen." 1 0 0 1 4 0
+"# verteilt an die Person, die er am wenigsten leiden kann 2 Schlucke." "" 2 0 0 0 0 0

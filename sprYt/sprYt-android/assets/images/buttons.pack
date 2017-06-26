@@ -1,0 +1,82 @@
+
+buttons.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+btn_confirmGroup_white
+  rotate: false
+  xy: 1, 517
+  size: 1024, 256
+  orig: 1024, 256
+  offset: 0, 0
+  index: -1
+btn_letsGo_white
+  rotate: false
+  xy: 1, 259
+  size: 660, 256
+  orig: 660, 256
+  offset: 0, 0
+  index: -1
+btn_hetero_white
+  rotate: false
+  xy: 1027, 517
+  size: 512, 256
+  orig: 512, 256
+  offset: 0, 0
+  index: -1
+btn_home_white
+  rotate: false
+  xy: 1, 1
+  size: 512, 256
+  orig: 512, 256
+  offset: 0, 0
+  index: -1
+btn_homo_white
+  rotate: false
+  xy: 663, 259
+  size: 512, 256
+  orig: 512, 256
+  offset: 0, 0
+  index: -1
+btn_addPlayer_white
+  rotate: false
+  xy: 1541, 517
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+btn_close_white
+  rotate: false
+  xy: 515, 1
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+btn_female_white
+  rotate: false
+  xy: 1177, 259
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+btn_male_white
+  rotate: false
+  xy: 773, 1
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+btn_ok_white
+  rotate: false
+  xy: 1435, 259
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+btn_forward_blue
+  rotate: false
+  xy: 1799, 517
+  size: 138, 256
+  orig: 138, 256
+  offset: 0, 0
+  index: -1

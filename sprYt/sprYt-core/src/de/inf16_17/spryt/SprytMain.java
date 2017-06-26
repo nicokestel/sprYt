@@ -1,5 +1,6 @@
 package de.inf16_17.spryt;
 
+import java.io.File;
 import java.util.ArrayList;
 
 import com.badlogic.gdx.Game;
@@ -53,8 +54,22 @@ public class SprytMain extends Game {
 //			System.out.println(player.getName() + " " + player.getGender() + " " + player.getSex() + " " + player.isInRelationship());
 //		}
 		
-
-		tasks = TaskHandler.readTasks("src/testTasks.txt");
+		String s = "../sprYt-android/assets/testTasks.txt";
+		System.out.println(Gdx.files.internal(s).file().getAbsolutePath());
+		
+		switch (Gdx.app.getType()) {
+			case Desktop:
+				tasks = TaskHandler.readTasks(s);
+				System.out.println(Gdx.files.internal(s).file().getAbsolutePath());
+				break;
+			case Android:
+				tasks = TaskHandler.readTasks(Gdx.files.internal(s).file().getPath());
+				break;
+			default:
+				Gdx.app.debug("MAIN", "no type");
+				break;
+		}
+//		tasks = TaskHandler.readTasks("testTasks.txt");
 		System.out.println(tasks.size());
 		TaskHandler.filterTasks(tasks, 3, 3, 3, 3);
 		System.out.println(tasks.size());

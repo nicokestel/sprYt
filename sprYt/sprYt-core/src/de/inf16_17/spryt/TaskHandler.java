@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.files.FileHandle;
 
 public class TaskHandler {
 	
@@ -19,7 +20,7 @@ public class TaskHandler {
 	public static ArrayList<Task> readTasks(String path){
 		ArrayList<Task> tasks = new ArrayList<Task>();
 		try {
-			Scanner fileScanner = new Scanner(new File(path)); // Liest die Datei Zeile fuer Zeile ein
+			Scanner fileScanner = new Scanner(new File(path)/*Gdx.files.internal(path).file()*/); // Liest die Datei Zeile fuer Zeile ein
 			while(fileScanner.hasNext()){
 				String line = fileScanner.nextLine();
 				System.out.println(line);
